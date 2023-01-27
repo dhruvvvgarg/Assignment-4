@@ -1,0 +1,13 @@
+import random
+x=1
+while x<=10:
+    a=random.randint(0,10)
+    b=random.randint(0,10)
+    answer= a*b
+    print(a,"x",b,"=",end='')
+    response= int(input())
+    if response== answer:
+        print("Right")
+    if response!=answer:
+         print("Wrong, the correct answer is", answer)
+    x=x+1
